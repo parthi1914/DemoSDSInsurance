@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "dgSpecHash": "mLm5or07JRY=",
+  "success": false,
+  "projectFilePath": "D:\\Technical\\Insurance\\InsuranceWrapperApi\\InsuranceWrapperApi\\InsuranceWrapperApi.Application\\InsuranceWrapperApi.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\parth\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\parth\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\parth\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\parth\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1108",
+      "level": "Error",
+      "message": "Cycle detected. \r\n  InsuranceWrapperApi.Application -> InsuranceWrapperApi.Domain -> InsuranceWrapperApi.Application.",
+      "projectPath": "D:\\Technical\\Insurance\\InsuranceWrapperApi\\InsuranceWrapperApi\\InsuranceWrapperApi.Application\\InsuranceWrapperApi.Application.csproj",
+      "filePath": "D:\\Technical\\Insurance\\InsuranceWrapperApi\\InsuranceWrapperApi\\InsuranceWrapperApi.Application\\InsuranceWrapperApi.Application.csproj",
+      "libraryId": "InsuranceWrapperApi.Application",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}
