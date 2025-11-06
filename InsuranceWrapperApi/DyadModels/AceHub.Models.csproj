@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>InsuranceWrapperApi.Application.DTOs.Providers.Dyad</RootNamespace>
+    <AssemblyName>AceHub.Models</AssemblyName>
+    <Version>1.0.0</Version>
+    <Authors>Your Company</Authors>
+    <Description>Complete C# models for Dyad ACE Hub 2.0 API integration</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Text.Json" Version="8.0.0" />
+    <PackageReference Include="Refit" Version="7.0.0" />
+  </ItemGroup>
+
+</Project>
